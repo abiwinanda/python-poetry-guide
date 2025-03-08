@@ -63,5 +63,7 @@ poetry install
 poetry run project
 ```
 
+**Note:** `project_name.main:main` means that the script will run `main()` function inside `main.py` file under `src/project_name` directory. Therefore, ensure that the function `main()` exists in the `main.py`.
+
 ## **7. Conclusion**
 Poetry simplifies dependency management and ensures a clean, isolated environment. Always use `poetry run` (recommended) or `poetry shell` to run your project inside the virtual environment.
